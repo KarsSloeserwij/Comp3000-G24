@@ -135,7 +135,7 @@ int pm_dumpcore(int sig, vir_bytes exe_name);
 void ds_event(void);
 int dupvm(struct fproc *fp, int pfd, int *vmfd, struct filp **f);
 int do_getrusage(void);
-int do_encrypt(void);   /*project 3*/
+int do_encrypt(void);   /*project*/
 
 /* mount.c */
 int do_mount(void);
